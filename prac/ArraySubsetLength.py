@@ -4,6 +4,8 @@ Created on Oct 30, 2017
 @author: Niraj.Kumar
 '''
 
+'find the biggest sub array from given array, sum of all elements of array should be zero, order should maintain '
+
 l = [2,2,-1,-5,4,1,1,-1]
 
 lsize=len(l)

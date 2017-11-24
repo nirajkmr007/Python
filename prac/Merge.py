@@ -4,6 +4,7 @@ Created on Nov 21, 2017
 @author: Niraj.Kumar
 '''
 
+'merge sort'
 
 a = [4,8,9,2,1,11,3,12,7]
 

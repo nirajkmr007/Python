@@ -4,6 +4,8 @@ Created on Nov 23, 2017
 @author: Niraj.Kumar
 '''
 
+'merge two sorted array with time complexity o(n) and space complexity o(1)'
+
 left=[2,4,5,7,8,None,None,None]
 right=[1,3,6]
 
@@ -24,7 +26,7 @@ while(leftlen >0 and rightlen>0):
     totallen-=1
 while(rightlen>0 and totallen>0):
     left[totallen-1]=right[rightlen-1]
-    rightlen-=1      
+    rightlen-=1
     totallen-=1
 
 print(left)

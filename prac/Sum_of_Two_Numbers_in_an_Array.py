@@ -4,6 +4,9 @@ Created on Oct 24, 2017
 @author: Niraj.Kumar
 '''
 
+
+'find no of possible combination of 2 element in given array sum of which is equal to k'
+
 lst = [7,6,6,3,9,3,5,1]
 k = 12
 my_set = set()

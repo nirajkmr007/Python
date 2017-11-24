@@ -4,6 +4,9 @@ Created on Oct 29, 2017
 @author: Niraj.Kumar
 '''
 
+'find the 2nd max value from given array'
+
+
 l = [13,4,2,11,5,6,9,0]
 
 currentMax= l[0]

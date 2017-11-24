@@ -4,6 +4,8 @@ Created on Nov 9, 2017
 @author: Niraj.Kumar
 '''
 
+'find array is unique of not in o(n)'
+
 arr = [6,7,8,3,4,0,0]
 mx = arr[0]
 for a in arr:

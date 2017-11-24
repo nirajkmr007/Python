@@ -3,6 +3,9 @@ Created on Oct 24, 2017
 
 @author: Niraj.Kumar
 '''
+
+'from given string remove same char if they are together till there are no such.'
+
 class Bomb(object):
     def bombard(self,lst):
         start = 0
@@ -39,9 +42,9 @@ class Bomb(object):
         
 if __name__ == '__main__':
     pass
-str = 'aaaaaaaaba'
+strg = 'aaaaaaaaba'
 lst = []
-for i in str:
+for i in strg:
     lst.append(i)
 
 print(Bomb().bombard(lst))

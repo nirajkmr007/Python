@@ -7,7 +7,7 @@ Created on Oct 27, 2017
 
 class TOH(object):
     '''
-    Tower of hanoi finds minimun steps 
+    Tower of hanoi finds minimum steps 
     '''
 
 

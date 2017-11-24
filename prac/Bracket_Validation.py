@@ -7,6 +7,8 @@ Created on Oct 24, 2017
 if __name__ == '__main__':
     pass
 
+'validate given string of brackets mathematically'
+
 get_match = {']':'[','}':'{',')':'('}
 flag = True
 
