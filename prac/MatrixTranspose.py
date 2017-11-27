@@ -42,3 +42,7 @@ for i, rows in enumerate(a):
 
 for i in a:
     print(i)
+    
+    
+    
+    
