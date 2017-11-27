@@ -20,6 +20,9 @@ a = [[1,2,1,2],[2,4,1,4],[1,8,0,3],[2,3,4,5]]
 for i in a:
     for j,l in enumerate(i):
         if l==0:
-            a[j]=[0]*len(a[i])
+            a[j]=[0]*len(a[j])
+            for k,s in enumerate(a):
+                a[k][j] = 0
+            #pass
 for i in a:
-    print(i) 
+    print(i)

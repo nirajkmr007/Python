@@ -31,7 +31,7 @@ f = 0
 for a in st:
     i = ord(a)
     s = 1<<i
-    print(bin(s)) 
+    #print(bin(s)) 
     if s & f == 0:
         f = f | s
     else:
